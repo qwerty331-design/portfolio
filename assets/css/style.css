@@ -937,9 +937,10 @@ Icon for all respective meta
     left: 0;
     background-color: #3F65C7;
     color: #fff;
-    height: 45px;
+    height: 55px;
     width: 100%;
     text-align: center;
+
 }
 
 .portfolio:hover .tt-overlay,
@@ -957,10 +958,11 @@ Icon for all respective meta
 }
 
 .portfolio-info h3 {
-    font-size: 14px;
-    line-height: 45px;
-    font-weight: 700;
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 500;
     margin: 0;
+    font-family: 'pretendard-regular';
 }
 
 .portfolio a {
@@ -1016,7 +1018,7 @@ Icon for all respective meta
     width: 60px;
     height: 60px;
     transform: scale(0.8);
-    position: absolute;
+    left: 50%;
 
 }
 
@@ -1025,22 +1027,21 @@ Icon for all respective meta
     width: 60px;
     height: 60px;
     transform: scale(0.8);
-    position: absolute;
+
 }
 
 .popup_in ul {
     width: 40%;
     background-color: #fff;
-    padding: 400px 50px 0px 50px;
+    padding: 0px 50px 50px;
     font-family: 'paperlogy';
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.popup_in .pubgray {
-    width: 40%;
-    background-color: #fff;
-    padding: 370px 50px 0px 50px;
-    font-family: 'paperlogy';
-}
+
 
 .popup_in ul h5 {
     font-weight: 400;
@@ -1943,4 +1944,22 @@ video {
 .bg {
     background: url(../images/bg.jpg) no-repeat center top / cover;
 
+}
+
+/* 타이틀 글자색 바꾸기 */
+.skills-section .section-title,
+.about-section .section-title,
+.contact .section-title,
+.resume-section .section-title,
+.works-section .section-title {
+    color: #3f65c7;
+
+}
+
+.latest-blog-section .section-title {
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
 }
