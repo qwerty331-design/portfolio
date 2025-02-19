@@ -161,31 +161,31 @@ jQuery(function ($) {
     // Shuffle
     // -------------------------------------------------------------
 
-    (function () {
+    // (function () {
 
-        var $grid = $('#grid');
+    //     var $grid = $('#grid');
 
-        $grid.shuffle({
-            itemSelector: '.portfolio-item'
-        });
+    //     $grid.shuffle({
+    //         itemSelector: '.portfolio-item'
+    //     });
 
-        /* reshuffle when user clicks a filter item */
-        $('#filter a').click(function (e) {
-            e.preventDefault();
+    //     /* reshuffle when user clicks a filter item */
+    //     $('#filter a').click(function (e) {
+    //         e.preventDefault();
 
-            // set active class
-            $('#filter a').removeClass('active');
-            $(this).addClass('active');
+    //         // set active class
+    //         $('#filter a').removeClass('active');
+    //         $(this).addClass('active');
 
-            // get group name from clicked item
-            var groupName = $(this).attr('data-group');
+    //         // get group name from clicked item
+    //         var groupName = $(this).attr('data-group');
 
-            // reshuffle grid
-            $grid.shuffle('shuffle', groupName);
-        });
+    //         // reshuffle grid
+    //         $grid.shuffle('shuffle', groupName);
+    //     });
 
 
-    }());
+    // }());
 
 
     // -------------------------------------------------------------
