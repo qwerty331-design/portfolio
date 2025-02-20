@@ -214,8 +214,35 @@ jQuery(function ($) {
             dynamicBullets: true,
         },
         navigation: {//화살표 버튼
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
+            nextEl: '#pop01 .swiper-button-next',
+            prevEl: '#pop01 .swiper-button-prev',
+          },
+    });
+
+    var swiper1 = new Swiper('.artwork2', {
+        speed: 1000,
+        pagination: {
+            el: '.artwork2 .swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {//화살표 버튼
+            nextEl: '#pop02 .swiper-button-next',
+            prevEl: '#pop02 .swiper-button-prev',
+          },
+    });
+
+
+    var swiper1 = new Swiper('.artwork3', {
+        speed: 1000,
+        pagination: {
+            el: '.artwork3 .swiper-pagination',
+            clickable: true,
+            dynamicBullets: true,
+        },
+        navigation: {//화살표 버튼
+            nextEl: '#pop03 .swiper-button-next',
+            prevEl: '#pop03 .swiper-button-prev',
           },
     });
 
